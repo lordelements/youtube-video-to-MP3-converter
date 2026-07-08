@@ -24,7 +24,7 @@ convertBtn.addEventListener('click', async () => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'b6a9b63181msh3086c4ae302b083p17dc24jsn7ea6ac785e2f',
+            'X-RapidAPI-Key': '',
             'X-RapidAPI-Host': 'youtube-mp36.p.rapidapi.com'
         }
     };

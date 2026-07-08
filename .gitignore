@@ -1,0 +1,16 @@
+# Local environment variables (Where we will hide your API key)
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE / Code Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
