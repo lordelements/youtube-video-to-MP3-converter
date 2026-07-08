@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro MP3 Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-card">
+        <h1>PRO MP3 CONVERTER</h1>
+        
+        <div class="input-group">
+            <input type="text" id="videoUrl" placeholder="Paste YouTube URL here...">
+            <button id="convertBtn">Convert</button>
+        </div>
+
+        <div id="statusMessage"></div>
+
+        <div id="previewCard" class="preview-card" style="display: none;">
+            <div class="preview-content">
+                <img id="videoThumbnail" src="" alt="Thumbnail">
+                <div class="video-info">
+                    <h3 id="videoTitle">Video Title</h3>
+                    <p id="videoDuration">Duration: --:--</p>
+                    <div class="quality-badge">Audio Quality: 320kbps</div>
+                </div>
+            </div>
+            
+            <div id="downloadArea" style="display: none;">
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <div class="action-buttons">
+                    <a href="#" id="downloadLink" class="download-button">🎵 Download MP3</a>
+                    <button onclick="location.reload()" class="reset-btn">Convert Another</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
